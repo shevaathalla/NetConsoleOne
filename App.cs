@@ -11,5 +11,6 @@ internal class App
         var clownFish = new Fish("Clown Fish", "blub blub");
 
         Console.WriteLine(clownFish.GetName() + " is a " + clownFish.Type + " so it has " + clownFish.GetLegCount() + " legs");
+        Console.WriteLine(clownFish.GetName()+" sound "+clownFish.PrintSound());
     }
 }
